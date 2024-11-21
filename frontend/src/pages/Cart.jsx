@@ -10,6 +10,8 @@ const Cart = () => {
 
   const [cartData, setCartData] = useState([]);
 
+  
+  
   useEffect(() => {
     if (products.length > 0) {
       const tempData = [];
@@ -33,6 +35,7 @@ const Cart = () => {
       <div className="text-2xl mb-3">
         <Title text1={"YOUR"} text2={"CART"} />
       </div>
+
       <div className="">
         {cartData.map((item, index) => {
           const productData = products.find(

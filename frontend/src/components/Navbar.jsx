@@ -23,12 +23,12 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium ">
       <Link to={"/"}>
-        <img src={assets.logo} className="w-36" alt="" />
+        <img src={assets.logo} className="w-36 scale-105" alt="" />
       </Link>
-      <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
+      <ul className="hidden sm:flex gap-5 text-md text-gray-700">
         <NavLink to={"/"} className="flex flex-col items-center gap-1">
           <p>Home</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+          <hr className="w-2/4 border-none h-[2px] bg-gray-700 hidden" />
         </NavLink>
 
         <NavLink
@@ -36,17 +36,17 @@ const Navbar = () => {
           className="flex flex-col items-center gap-1"
         >
           <p>Collection</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+          <hr className="w-2/4 border-none h-[2px] bg-gray-700 hidden" />
         </NavLink>
 
         <NavLink to={"/about"} className="flex flex-col items-center gap-1">
           <p>About</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+          <hr className="w-2/4 border-none h-[2px] bg-gray-700 hidden" />
         </NavLink>
 
         <NavLink to={"/contact"} className="flex flex-col items-center gap-1">
           <p>Contact</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+          <hr className="w-2/4 border-none h-[2px] bg-gray-700 hidden" />
         </NavLink>
       </ul>
 
@@ -72,6 +72,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded">
               <p className="cursor-pointer hover:text-black">My Profile</p>
               <p onClick={() => navigate('/orders')} className="cursor-pointer hover:text-black"> Orders</p>
+              <Link to={'https://primecart-admin.vercel.app/'} target="blank" className="cursor-pointer hover:text-black"> Admin Panel</Link>
               <p onClick={logout} className="cursor-pointer hover:text-black">
                 Logout
               </p>

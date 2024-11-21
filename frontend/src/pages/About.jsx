@@ -11,28 +11,28 @@ const About = () => {
       <div className='my-10 flex flex-col md:flex-row gap-16'>
         <img className='w-full md:max-w-[450px]' src={assets.about_img} alt="" />
         <div className='flex flex-col justify-center gap-6 text-gray-600'>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat molestiae porro maxime aspernatur sunt, ex inventore, in magnam assumenda totam neque odio commodi corporis nesciunt cupiditate  iste odio rem maxime impedit reprehenderit dolorum dolor, vel ad provident sit earum consectetur cum nobis! Eveniet quis repudiandae tempora blanditiis sint quam id quas dolorum possimus quod animi doloremque fuga excepturi, doloribus, similique saepe modi atque sit!</p>
+        <p>At PrimeCart, we believe in offering clothing that combines style, comfort, and quality. Our carefully curated collection is designed to fit every occasion, ensuring that you look and feel your best. We are committed to providing a seamless shopping experience, from the moment you browse our collection to the moment your order arrives at your doorstep.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto tempore exercitationem praesentium quia deserunt vel, quod eos sapiente quibusdam. Quaerat minima omnis suscipit facere dolor id pariatur, voluptatibus nihil. Fugit adipisci dignissimos veniam illo libero dicta perferendis optio quod non cum quidem, amet dolor laboriosam expedita in dolore! Sequi neque impedit ad neque repellendus soluta architecto quae beatae. Nostrum officiis aliquid magnam explicabo dolores? Alias et qui distinctio autem! Aperiam incidunt sit vero ea!</p>
+        <p>Our team works tirelessly to bring you the latest trends and timeless pieces, prioritizing customer satisfaction and affordable luxury. With a passion for fashion and a dedication to excellence, we are here to make your wardrobe a reflection of your unique style.</p>
         <b className='text-gray-800'> Our Mission</b>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod dolorem dolorum quo amet ab nihil cumque, quos culpa quasi officiis suscipit blanditiis distinctio voluptatum ipsam ipsum, soluta consectetur quis deleniti! Adipisci commodi molestias quibusdam,atem asperiores molestiae!</p>
+        <p>At PrimeCart, our mission is to deliver exceptional clothing that blends style, comfort, and affordability. We aim to inspire confidence in every customer by offering high-quality, timeless pieces that suit every occasion. Our dedication to customer satisfaction drives us to provide a seamless shopping experience and ensure that every order meets the highest standards.</p>
         </div>
       </div>
       <div className='text-4xl py-4'> 
         <Title text1={"WHY"} text2={"CHOOSE US"}/>
       </div>
       <div className='flex flex-col md:flex-row text-sm mb-20'>
-        <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-            <b>Quality Assurance</b>
-            <p className='text-gray-600'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ratione eos facere debitis! Nesciunt non quisquam soluta fugiat fuga neque, nostrum possimus ex quidem repudiandae?</p>
+        <div className='border px-10 md:px-16 py-8 sm:py-10 flex flex-col gap-5'>
+            <b className='text-lg'>Quality Assurance</b>
+            <p className='text-gray-600'>At PrimeCart, we are committed to providing only the highest quality products. Each item in our collection is carefully crafted to ensure durability, comfort, and style. We rigorously test every product to meet our strict quality standards, so you can shop with confidence knowing that your purchase will exceed expectations.</p>
         </div>
-        <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-            <b>Convenience</b>
-            <p className='text-gray-600'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ratione eos facere debitis! Nesciunt non quisquam soluta fugiat fuga neque, nostrum possimus ex quidem repudiandae?</p>
+        <div className='border px-10 md:px-16 py-8 sm:py-10 flex flex-col gap-5'>
+            <b className='text-lg'>Convenience</b>
+            <p className='text-gray-600'>We prioritize your shopping experience by offering a seamless, hassle-free process from browsing to delivery. With easy navigation, secure payment options, and fast shipping, shopping with us is always convenient and efficient. Enjoy the convenience of shopping anytime, anywhere, and have your favorite styles delivered straight to your door.</p>
         </div>
-        <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-            <b>Exceptional Customer Service</b>
-            <p className='text-gray-600'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ratione eos facere debitis! Nesciunt non quisquam soluta fugiat fuga neque, nostrum possimus ex quidem repudiandae?</p>
+        <div className='border px-10 md:px-16 py-8 sm:py-10 flex flex-col gap-5'>
+            <b className='text-lg'>Exceptional Customer Service</b>
+            <p className='text-gray-600'>At PrimeCart, we believe in providing outstanding customer support every step of the way. Our dedicated team is here to assist you with any questions or concerns, ensuring a smooth and enjoyable shopping experience. We’re committed to resolving any issues promptly and delivering the best possible service, making your satisfaction our top priority.</p>
         </div>
       </div>
       <Newletter/>

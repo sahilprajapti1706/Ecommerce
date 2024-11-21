@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
             <div>
                 <img src={assets.logo} className='mb-5 w-32 '/>
-                <p className='w-full md:w-2/3 text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque magnam voluptas corporis quos molestiae recusandae laudantium iure dolorem saepe, soluta veniam, eos a esse praesentium distinctio labore eligendi rem cupiditate.</p>
+                <p className='w-full md:w-2/3 text-gray-600'>Discover the latest fashion trends and timeless classics, all crafted for your unique style. At PrimeCart, we prioritize quality, comfort, and customer satisfaction. Shop with confidence and let us bring elegance to your wardrobe.</p>
             </div>
 
             <div className=''>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div>
             <hr />
-            <p className='py-5 text-sm text-center '>Copyright 2025 @ primecart.com - All Rights Reserved</p>
+            <p className='py-5 text-sm text-center '>Copyright {new Date().getFullYear()} @ primecart.com - All Rights Reserved</p>
         </div>
     </div>
   )
