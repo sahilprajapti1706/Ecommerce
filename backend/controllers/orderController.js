@@ -135,7 +135,7 @@ const verifyStripe = async (req, res) => {
 //Razorpay
 const placeOrderRazorpay = async (req, res) => {
     try {
-        const { userId, items, amount, address } = req.body;
+        const { userId, items,currency="USD", amount, address } = req.body;
 
         const orderData = {
             userId,
