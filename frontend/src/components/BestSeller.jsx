@@ -19,7 +19,8 @@ const BestSeller = () => {
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
         Favorites loved by all!
         </p>
-
+      </div>
+      <div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 ">
           {bestSeller.map((item, index) => (
             <ProductItem
